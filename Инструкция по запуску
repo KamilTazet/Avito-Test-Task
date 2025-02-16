@@ -1,0 +1,5 @@
+Запуск сервиса 
+uvicorn service:app --reload
+
+Запуск тестов
+pytest .\service_tests.py

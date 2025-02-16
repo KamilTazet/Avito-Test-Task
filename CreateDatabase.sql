@@ -170,3 +170,14 @@ INSERT INTO public.merch(
 INSERT INTO public.merch(
 	merch_id, merch_name, merch_cost)
 	VALUES ('pink-hoody', 500);
+
+-- Пользователь Ruslan, пароль 12345
+INSERT INTO public.user_auth(
+	user_id, user_login, user_password)
+	VALUES ('Ruslan', '$2b$12$N9a6wZG3exs2nyhEWSX1nOUXh78vK74cvMKpg0i1NZLlWH2hg5doi');
+
+-- Пользователь Ivan, пароль 11111
+INSERT INTO public.user_auth(
+	user_id, user_login, user_password)
+	VALUES ('Ivan', '$2b$12$$2b$12$usA73Dwgne0IojbrPw1jeu9O9ookRy4hD6ouAhHNn8Kubv.uRnRee');
+
